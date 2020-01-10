@@ -9,8 +9,8 @@ import {
 	Typography,
 } from '@material-ui/core'
 import { useSelector, useDispatch } from 'react-redux'
-import { fetchAlbums, setPage } from '../../stores/albums'
-import { RootState } from '../../stores'
+import { fetchAlbums, setPage } from 'stores/albums'
+import { RootState } from 'stores'
 
 const AlbumsList = () => {
 	const dispatch = useDispatch()

@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core'
 import axios from 'axios'
 import { pick } from 'lodash'
-import { IUser, IUserResponse } from '../../interfaces/User'
+import { IUser, IUserResponse } from 'interfaces/User'
 
 const Users: React.FC = () => {
 	const [page, setPage] = useState(1)

@@ -1,8 +1,8 @@
 import React, { useCallback } from 'react'
 import { Typography, Box, Button, ButtonGroup, Grid } from '@material-ui/core'
 import { useSelector, useDispatch } from 'react-redux'
-import { increase, decrease } from '../../stores/amount_counter'
-import { RootState } from '../../stores'
+import { increase, decrease } from 'stores/amount_counter'
+import { RootState } from 'stores'
 
 const AmountCounter: React.FC = () => {
 	const count = useSelector((state: RootState) => state.amountCounter.count)

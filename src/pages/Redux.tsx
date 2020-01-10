@@ -1,8 +1,8 @@
 import React from 'react'
 import { Theme, createStyles, makeStyles } from '@material-ui/core/styles'
-import Counter from '../components/redux/Counter'
-import AmountCounter from '../components/redux/AmountCounter'
-import AlbumsList from '../components/redux/AlbumsList'
+import Counter from 'components/redux/Counter'
+import AmountCounter from 'components/redux/AmountCounter'
+import AlbumsList from 'components/redux/AlbumsList'
 import { Divider, Grid } from '@material-ui/core'
 
 const useStyles = makeStyles((theme: Theme) =>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Typography, Box, Button } from '@material-ui/core'
-import { IUser } from '../../interfaces/User'
+import { IUser } from 'interfaces/User'
 
 const User: React.FC = () => {
 	const [user, setUser] = useState<IUser | null>(null)

@@ -25,6 +25,8 @@ const TabBar: React.FC = () => {
 				value={value}
 				onChange={handleChange}
 				classes={{ indicator: styles.indicator }}
+				variant="scrollable"
+				scrollButtons="auto"
 			>
 				<Tab
 					component={Link}

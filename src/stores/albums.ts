@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { AppThunk } from './index'
 import axios from 'axios'
-import { sleep } from '../utils/commonFunction'
+import { sleep } from 'utils/commonFunction'
 
 interface Album {
 	id: number

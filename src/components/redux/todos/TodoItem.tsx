@@ -9,7 +9,7 @@ import {
 	Checkbox,
 } from '@material-ui/core'
 import { Delete } from '@material-ui/icons'
-import { Todo, toggleTodoAsync, removeTodoAsync } from '../../../stores/todos'
+import { Todo, toggleTodoAsync, removeTodoAsync } from 'stores/todos'
 
 interface TodoItemProps {
 	todo: Todo

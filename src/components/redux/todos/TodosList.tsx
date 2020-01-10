@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Box, List, CircularProgress } from '@material-ui/core'
 import { useSelector, useDispatch } from 'react-redux'
-import { fetchTodos } from '../../../stores/todos'
-import { RootState } from '../../../stores'
+import { fetchTodos } from 'stores/todos'
+import { RootState } from 'stores'
 import TodoItem from './TodoItem'
 
 const TodosList: React.FC = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { TextField } from '@material-ui/core'
 import { useForm } from 'react-hook-form'
-import { addTodoAsync } from '../../../stores/todos'
+import { addTodoAsync } from 'stores/todos'
 
 interface FormData {
 	title: string
